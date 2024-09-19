@@ -1,4 +1,4 @@
-FROM golang:1.20.11-alpine
+FROM golang:1.21.9-alpine
 ## MaJ des listes de packages et ajout via apk
 RUN apk update \
     && apk add apache2 atop libcap bash jq \
